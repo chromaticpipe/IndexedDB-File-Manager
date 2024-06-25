@@ -10,7 +10,7 @@ Demo Site Here: https://burnedpopcorn.github.io/IndexedDB-File-Manager/filemanag
 - Ability to Delete any Files and Folders (just delete everything in the folder before the folder itself)
 - Being able to see File Size and Last Modified Time
 
-And with a pretty good UI too
+And with a pretty good UI too (You can see a preview by looking at the numbered pictures)
 > Also I'm pretty sure this is entirely BrowserFS based
 
 ## To Change the SandBox Database Name
