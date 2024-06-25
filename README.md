@@ -8,5 +8,11 @@ A File Manager for IndexedDB (that is currently a Work in Progress)
 - Ability to Delete any Files and Folders (just delete everything in the folder before the folder itself)
 - Being able to see File Size and Last Modified Time
 
-And with a pretty good UI
+And with a pretty good UI too
 
+## To Change the SandBox Database Name
+This project unfortunately runs in a sandbox comprised of a separate database and objects, but you change the name of them by opening ```filemanager.js```, and searching for ```file_sandbox```, and replacing that string to whatever you want 
+> This Project is still considered a WIP because I want to be able to name the database and object within differently, and even be able to access the IndexedDB root if possible
+
+## Thanks to
+shit lemme get his username rq
