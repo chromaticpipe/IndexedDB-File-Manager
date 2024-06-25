@@ -11,7 +11,7 @@ Demo Site Here: https://burnedpopcorn.github.io/IndexedDB-File-Manager/filemanag
 - Being able to see File Size and Last Modified Time
 
 And with a pretty good UI too
-> Also, this is a BrowserFS based Web Page
+> Also I'm pretty sure this is entirely BrowserFS based
 
 ## To Change the SandBox Database Name
 This project unfortunately runs in a sandbox comprised of a separate database and objects, but you change the name of them by opening ```filemanager.js```, and searching for ```file_sandbox```, and replacing that string to whatever you want 
