@@ -16,7 +16,7 @@ And with a pretty good UI too
 > Also I'm pretty sure this is entirely BrowserFS based
 
 ## This is NOT a File Manager to browse the root of IndexedDB
-IndexedDB to my knowledge DOES NOT let you access the root of IndexedDB, as it creates 'sandboxes' for each website and you cannot access the IndexedDB data from another website using this File Manager.
+IndexedDB to my knowledge DOES NOT let you access the root of IndexedDB, as it creates 'sandboxes' for each website and you cannot access the sandbox from another website using this File Manager.
 > Unless that website also has this installed, but you would have to switch over to that page
 
 This File Manager also has the limitation of not being able to open and access prexisting 'sandboxes', even if they are from the same website (unless they have the same name). This is because BrowserFS forces the File Manager to make/merge a sandbox (the default name is ```file_sandbox```) and I'm pretty sure BrowserFS doesn't have the ability to locate and enter different ones that might be there
