@@ -24,6 +24,8 @@ This File Manager also has the limitation of not being able to open and access p
 But either way the File Manager considers ```file_sandbox``` to be root, so unless actual IndexedDB root can be achieved, this will harm the usefulness of this project alot
 > You can merge into a prexisting sandbox, but they have to be the exact same name, but you can do that in the instructions below
 
+![image](https://github.com/burnedpopcorn/IndexedDB-File-Manager/blob/main/sandbox.png)
+
 ## To Change the SandBox Database Name
 This project, as stated above, unfortunately runs in a sandbox comprised of a separate database and objects (or whatever the hell they're called), but you change the name of them by opening ```filemanager.js```, and searching for ```file_sandbox```, and replacing that string to whatever you want 
 > This Project is still considered a WIP because I want to be able to name the database and object within differently, and even be able to access the IndexedDB root if possible
