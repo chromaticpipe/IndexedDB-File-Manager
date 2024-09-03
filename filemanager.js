@@ -1312,7 +1312,7 @@
                                 key: "componentDidMount",
                                 value: function () {
                                     var e = this;
-                                    h.configure({ fs: "AsyncMirror", options: { sync: { fs: "InMemory" }, async: { fs: "IndexedDB", options: { storeName: "/home/web_user/.srb2" } } } }, function (t) {
+                                    h.configure({ fs: "AsyncMirror", options: { sync: { fs: "InMemory" }, async: { fs: "IndexedDB", options: { storeName: "/home/web_user/" } } } }, function (t) {
                                         if (t) throw t;
                                         e.setState({ isReady: !0 }), (window.fs = window.require("fs"));
                                     });
